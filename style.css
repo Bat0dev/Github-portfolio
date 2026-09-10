@@ -289,6 +289,7 @@ h2 { font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.05; letter-spacing: -.0
 
 /* ---------- contact ---------- */
 .contact h2 { font-size: clamp(2.2rem, 6vw, 4.5rem); max-width: 18ch; }
+.contact h2 .accent { white-space: nowrap; } /* keep "Let's talk." on one line */
 .contact-links { display: grid; margin-top: 48px; border-top: 1px solid var(--border); }
 .contact-link {
   display: grid;
