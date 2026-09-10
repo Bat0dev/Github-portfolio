@@ -155,7 +155,7 @@
   const modalContent = $("#modal-content");
   const LINK_TEXT = {
     github: "Source code", demo: "Live demo", video: "Watch video",
-    itch: "Play on itch.io", artstation: "View on ArtStation",
+    itch: "Play on itch.io", artstation: "View on ArtStation", steam: "View on Steam",
   };
 
   function mediaNode(item) {
